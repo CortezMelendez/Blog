@@ -9,3 +9,80 @@
 #Titulo{
     text-align: center;
 }
+
+.card{
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+footer {
+  background-color: #000000; 
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 -2px 6px rgba(0,0,0,0.3); 
+}
+
+footer p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+}
+
+footer p:last-child {
+  font-style: italic;
+  color: #d4af37; 
+}
+
+.card-img-top {
+  height: 200px;      
+  object-fit: cover;  
+}
+
+
+#contacto .card {
+  background-color: #fff;   
+  color: #000;             
+  border: 1px solid #ccc;  
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1); 
+}
+
+#contacto h2, 
+#contacto h3 {
+  font-family: 'Segoe UI', sans-serif;
+  margin-bottom: 1rem;
+}
+
+#contacto label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+#contacto input {
+  width: 50%;          /* cada input ocupa todo el ancho de su columna */
+  padding: 8px;
+  margin-top: 10px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+#contacto textarea {
+  width: 50%;          /* textarea ocupa todo el ancho disponible */
+  padding: 8px;
+  margin-top: 10px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+#contacto button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #0B2545; 
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#contacto button:hover {
+  background-color: #d4af37; 
+}

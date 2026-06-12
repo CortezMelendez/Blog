@@ -9,127 +9,323 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </head>
 <body>
-
-<header id="header" > <div class="container">
-  <div class="row align-items-start">
-    <div class="col-1" >
-      <img width="100" src="./Imagenes/WhatsApp Image 2026-06-08 at 10.27.37.jpeg">
-    </div>
-    <div class="col">
-      <h1 id = "Titulo">The BarberShop</h1>
-      <p id = "Titulo">Tu estilo, nuestra pasión.</p>
+    
+<header id="header" class="text-white text-center py-3"">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <div class="col-1 text-start">
+        <img src="./Imagenes/WhatsApp Image 2026-06-08 at 10.27.37.jpeg" 
+             alt="Logo BarberShop" 
+             width="250" 
+             class="img-fluid">
+      </div>
+      
+      <div class="col-10 text-center">
+        <h1 id="Titulo">The BarberShop</h1>
+        <p>Tu estilo, nuestra pasión.</p>
+      </div>
+      
     </div>
   </div>
-</div>
-    
 </header>
 
 
+
+
 <main>
+  <section id="sobre-nosotros" class="container my-5">
+    <div class="card p-4">
+  <h2 class="text-center mb-4">Sobre Nosotros</h2>
+  
+    <div class="row align-items-center">
+      
+      <div class="col-md-4 text-start">
+        <img width="250" src="./Imagenes/WhatsApp Image 2026-06-08 at 10.27.37.jpeg"
+             alt="Logo La Barber" 
+             class="img-fluid rounded">
+      </div>
 
-    <section id="sobre-nosotros">
-        <h2>Sobre Nosotros</h2>
-        
+      <div class="col-md-8">
         <article>
-            <h3 style="color: rgb(24, 24, 95);">
-                ¿Quiénes somos?</h3>
-            <img width="250" src="https://imgs.search.brave.com/FzCpG2GKGyNxYhNjX_SG_BMDm37U-UWFhLg9GWkea94/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wNTUv/NjYzLzg3OC9zbWFs/bC9pbGx1c3RyYXRp/b24tYmFyYmVyLXNo/b3AtZW1ibGVtLWRl/c2lnbi12aW50YWdl/LWJhcmJlcnNob3At/c2lnbi1wbmcucG5n" alt="Logo La Barber">
-            <p>
-                Somos una barbería con más de 10 años de experiencia ofreciendo los mejores cortes
-                y tratamientos para caballeros. Nuestro equipo de barberos certificados se especializa
-                en estilos modernos y clásicos, garantizando que cada cliente salga sintiéndose
-                y luciendo increíble.
-            </p>
+          <h3 style="color: rgb(0, 0, 0);">¿Quiénes somos?</h3>
+          <p>
+            Somos una barbería con más de 10 años de experiencia ofreciendo los mejores cortes
+            y tratamientos para caballeros. Nuestro equipo de barberos certificados se especializa
+            en estilos modernos y clásicos, garantizando que cada cliente salga sintiéndose
+            y luciendo increíble.
+          </p>
         </article>
         <article>
-            <h3>Nuestra historia</h3>
-            <p id="parrafo1"> 
-                La Barber nació en 2014 con la visión de crear un espacio donde los hombres pudieran
-                relajarse y recibir un servicio de primera calidad. Desde entonces hemos atendido
-                a miles de clientes y seguimos creciendo gracias a su confianza.
-            </p>
-            <p>
-                Visítanos y descubre por qué somos la barbería favorita del vecindario.
-                <a href="#contacto">Agenda tu cita hoy mismo.</a>
-            </p>
+          <h3>Nuestra historia</h3>
+          <p id="parrafo1"> 
+            La Barber nació en 2014 con la visión de crear un espacio donde los hombres pudieran
+            relajarse y recibir un servicio de primera calidad. Desde entonces hemos atendido
+            a miles de clientes y seguimos creciendo gracias a su confianza.
+          </p>
+          <p>
+            Visítanos y descubre por qué somos la barbería favorita del vecindario.
+            <a href="#contacto">Agenda tu cita hoy mismo.</a>
+          </p>
         </article>
-        
-    </section>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <section id="servicios">
-        <h2>Servicios</h2>
-        <div class = "row">       
-            <article class="col selectable">
-            <h3>Corte de Cabello — Desvanecidos</h3>
-            <img width="180" src="https://imgs.search.brave.com/2cP8mSOFMqUQCgIQ6Olc2Be2SXlB-IAdUHy8IFUY1AI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2ZjLzdj/LzdjL2ZjN2M3Yzdm/Zjg1YjY2ZThmNDIz/NzI5MDM2MTMzY2E2/LmpwZw" alt="Corte desvanecido">
-            <p>Especializados en fade, taper y skin fade. Tu corte queda impecable.</p>
-            <ul>
-                <li>Fade bajo</li>
-                <li>Fade medio</li>
-                <li>Skin fade</li>
-                <li>Taper clásico</li>
-            </ul>
-        </article>
+   <section id="servicios" class="container my-5">
+    <div class ="card p-4">
+        <h2 class="text-center mb-4">Servicios</h2>
+  </div>
+  <div class="row g-4">
 
-        <article class="col selectable">
-            <h3>Faciales para Caballero</h3>
-            <img width="180" src="https://imgs.search.brave.com/dnzCEXeUUWUQ3ye2gCYIkFhup1HhmL_LHs_eHeOQl70/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/ZGVzZXJ0aWthc3Bh/LmNvbS93ZWIvaW1h/Z2UvNDE4OTUtNTg0/OTU2ZjMvRGVzZXJ0/aWthX0ZhY2lhbGVz/X0Rlc2ludG94aWNh/bnRlUGFyYUNhYmFs/bGVyby5qcGc" alt="Faciales para caballero">
-            <p>Tratamientos diseñados para el cuidado de la piel masculina.</p>
-            <ul>
-                <li>Limpieza profunda</li>
-                <li>Hidratación facial</li>
-                <li>Tratamiento anti-acné</li>
-                <li>Exfoliación</li>
-            </ul>
-        </article>
-
-        <article class ="col selectable">
-            <h3>Venta de Productos</h3>
-            <img width="180" src="https://imgs.search.brave.com/IW0Ea40jBH2wZ_PCrQwiZnUMZKq-W9ohO_v5KXqjPY8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMucGV4ZWxzLmNv/bS9waG90b3MvMzA5/MTE2NjIvcGV4ZWxz/LXBob3RvLTMwOTEx/NjYyL2ZyZWUtcGhv/dG8tb2YtaGVycmFt/aWVudGFzLXRyYWRp/Y2lvbmFsZXMtZGUt/YmFyYmVyaWEtZW4t/c2FvLXBhdWxvLmpw/ZWc_YXV0bz1jb21w/cmVzcyZjcz10aW55/c3JnYiZkcHI9MSZ3/PTUwMA" alt="Productos de barbería">
-            <p>Contamos con una selección de productos profesionales para que mantengas tu estilo en casa.</p>
-            <ul>
-                <li>Pomadas y ceras</li>
-                <li>Aceites para barba</li>
-                <li>Shampoos especializados</li>
-                <li>Lociones post-afeitado</li>
-            </ul>
-        </article>
-
-        <article class="col selectable">
-            <h3>Diseño de Ceja</h3>
-            <img width="180" src="https://imgs.search.brave.com/7t7gigdEfNq4_hgnxPBKjlC3P9m3y09eQrlENUxNbOQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2E3LzAz/L2Q2L2E3MDNkNjFj/MzE4MGM2NzYyOTBm/YWFjMzQzNThmNjdj/LmpwZw" alt="Diseño de ceja">
-            <p>Damos forma y definición a tus cejas para un acabado limpio y natural.</p>
-            <ul>
-                <li>Depilación con hilo</li>
-                <li>Diseño con navaja</li>
-                <li>Tinte de cejas</li>
-            </ul>
-        </article>
+    <div class="col-md-3">
+      <div class="card h-100" style="width: 18rem;">
+        <img src="./Imagenes/Desvanecidos.webp" 
+             class="card-img-top" alt="Corte desvanecido">
+        <div class="card-body">
+          <h3 class="card-title">Corte de Cabello — Desvanecidos</h3>
+          <p class="card-text">Especializados en fade, taper y skin fade. Tu corte queda impecable.</p>
+          <ul class="list-unstyled">
+            <li>Fade bajo</li>
+            <li>Fade medio</li>
+            <li>Skin fade</li>
+            <li>Taper clásico</li>
+          </ul>
+           <h5>$120.00</h5>
         </div>
+      </div>
+    </div>
 
-    </section>
+    <div class="col-md-3">
+      <div class="card h-100" style="width: 18rem;">
+        <img src="./Imagenes/Faciales.webp"
+             class="card-img-top" alt="Faciales para caballero">
+        <div class="card-body">
+          <h3 class="card-title">Faciales para Caballero</h3>
+          <p class="card-text">Tratamientos diseñados para el cuidado de la piel masculina.</p>
+          <ul class="list-unstyled">
+            <li>Limpieza profunda</li>
+            <li>Hidratación facial</li>
+            <li>Tratamiento anti-acné</li>
+            <li>Exfoliación</li>
+          </ul>
+          <h5>$180.00</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card h-100" style="width: 18rem;">
+        <img src="Imagenes/Productos.webp"
+             class="card-img-top" alt="Productos de barbería">
+        <div class="card-body">
+          <h3 class="card-title">Venta de Productos</h3>
+          <p class="card-text">Contamos con una selección de productos profesionales para que mantengas tu estilo en casa.</p>
+          <ul class="list-unstyled">
+            <li>Pomadas y ceras</li>
+            <li>Aceites para barba</li>
+            <li>Shampoos especializados</li>
+            <li>Lociones post-afeitado</li>
+          </ul>
+          <h5>Desde $120.00</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card h-100"style="width: 18rem;">
+        <img src="Imagenes/Cejas.webp"
+             class="card-img-top" alt="Diseño de ceja">
+        <div class="card-body">
+          <h3 class="card-title">Diseño de Ceja</h3>
+          <p class="card-text">Damos forma y definición a tus cejas para un acabado limpio y natural.</p>
+          <ul class="list-unstyled">
+            <li>Depilación con hilo</li>
+            <li>Diseño con navaja</li>
+            <li>Tinte de cejas</li>
+          </ul>
+          <h5>Desde $100.00</h5>
+        </div>
+      </div>
+    </div>
+
+     <div class="col-md-3">
+      <div class="card h-100" style="width: 18rem;">
+        <img src="./Imagenes/Desvanecidos.webp" 
+             class="card-img-top" alt="Corte desvanecido">
+        <div class="card-body">
+          <h3 class="card-title">Corte de Cabello — Desvanecidos</h3>
+          <p class="card-text">Especializados en fade, taper y skin fade. Tu corte queda impecable.</p>
+          <ul class="list-unstyled">
+            <li>Fade bajo</li>
+            <li>Fade medio</li>
+            <li>Skin fade</li>
+            <li>Taper clásico</li>
+          </ul>
+           <h5>$120.00</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card h-100" style="width: 18rem;">
+        <img src="./Imagenes/Faciales.webp"
+             class="card-img-top" alt="Faciales para caballero">
+        <div class="card-body">
+          <h3 class="card-title">Faciales para Caballero</h3>
+          <p class="card-text">Tratamientos diseñados para el cuidado de la piel masculina.</p>
+          <ul class="list-unstyled">
+            <li>Limpieza profunda</li>
+            <li>Hidratación facial</li>
+            <li>Tratamiento anti-acné</li>
+            <li>Exfoliación</li>
+          </ul>
+          <h5>$180.00</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card h-100" style="width: 18rem;">
+        <img src="Imagenes/Productos.webp"
+             class="card-img-top" alt="Productos de barbería">
+        <div class="card-body">
+          <h3 class="card-title">Venta de Productos</h3>
+          <p class="card-text">Contamos con una selección de productos profesionales para que mantengas tu estilo en casa.</p>
+          <ul class="list-unstyled">
+            <li>Pomadas y ceras</li>
+            <li>Aceites para barba</li>
+            <li>Shampoos especializados</li>
+            <li>Lociones post-afeitado</li>
+          </ul>
+          <h5>Desde $120.00</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card h-100"style="width: 18rem;">
+        <img src="Imagenes/Cejas.webp"
+             class="card-img-top" alt="Diseño de ceja">
+        <div class="card-body">
+          <h3 class="card-title">Diseño de Ceja</h3>
+          <p class="card-text">Damos forma y definición a tus cejas para un acabado limpio y natural.</p>
+          <ul class="list-unstyled">
+            <li>Depilación con hilo</li>
+            <li>Diseño con navaja</li>
+            <li>Tinte de cejas</li>
+          </ul>
+          <h5>Desde $100.00</h5>
+        </div>
+      </div>
+    </div>
+
+     <div class="col-md-3">
+      <div class="card h-100" style="width: 18rem;">
+        <img src="./Imagenes/Desvanecidos.webp" 
+             class="card-img-top" alt="Corte desvanecido">
+        <div class="card-body">
+          <h3 class="card-title">Corte de Cabello — Desvanecidos</h3>
+          <p class="card-text">Especializados en fade, taper y skin fade. Tu corte queda impecable.</p>
+          <ul class="list-unstyled">
+            <li>Fade bajo</li>
+            <li>Fade medio</li>
+            <li>Skin fade</li>
+            <li>Taper clásico</li>
+          </ul>
+           <h5>$120.00</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card h-100" style="width: 18rem;">
+        <img src="./Imagenes/Faciales.webp"
+             class="card-img-top" alt="Faciales para caballero">
+        <div class="card-body">
+          <h3 class="card-title">Faciales para Caballero</h3>
+          <p class="card-text">Tratamientos diseñados para el cuidado de la piel masculina.</p>
+          <ul class="list-unstyled">
+            <li>Limpieza profunda</li>
+            <li>Hidratación facial</li>
+            <li>Tratamiento anti-acné</li>
+            <li>Exfoliación</li>
+          </ul>
+          <h5>$180.00</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card h-100" style="width: 18rem;">
+        <img src="Imagenes/Productos.webp"
+             class="card-img-top" alt="Productos de barbería">
+        <div class="card-body">
+          <h3 class="card-title">Venta de Productos</h3>
+          <p class="card-text">Contamos con una selección de productos profesionales para que mantengas tu estilo en casa.</p>
+          <ul class="list-unstyled">
+            <li>Pomadas y ceras</li>
+            <li>Aceites para barba</li>
+            <li>Shampoos especializados</li>
+            <li>Lociones post-afeitado</li>
+          </ul>
+          <h5>Desde $120.00</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card h-100"style="width: 18rem;">
+        <img src="Imagenes/Cejas.webp"
+             class="card-img-top" alt="Diseño de ceja">
+        <div class="card-body">
+          <h3 class="card-title">Diseño de Ceja</h3>
+          <p class="card-text">Damos forma y definición a tus cejas para un acabado limpio y natural.</p>
+          <ul class="list-unstyled">
+            <li>Depilación con hilo</li>
+            <li>Diseño con navaja</li>
+            <li>Tinte de cejas</li>
+          </ul>
+          <h5>Desde $100.00</h5>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+</section>
+
 
     <section id="ubicacion">
-        <h2>Dónde nos ubicamos</h2>
+        <div class="d-flex justify-content-center">
+        <div class="card text-center p-4" style="width: 80rem;"><h2>Dónde nos ubicamos</h2>
         <article>
             <h3>Visítanos</h3>
-            <p>Estamos ubicados en el corazón de la ciudad, fácil de encontrar y con estacionamiento disponible.</p>
+            <p>Estamos ubicados en el corazón de la ciudad, fácil de encontrar, justo enfrente de Cardiologìa Orozco, sobre la calle Reforma.</p>
             <ul>
-                <li>Dirección: Av. Insurgentes Sur 1234, Col. Del Valle, CDMX</li>
-                <li>Horario: Lunes a Sábado de 9:00 am a 8:00 pm</li>
-                <li>Domingo: 10:00 am a 4:00 pm</li>
+                Reforma 315, Centro, 62660 Puente de Ixtla, Mor.
+                <br>
+                Horario: Martes a Domingo de 10:30 am a 7:00 pm
             </ul>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3775.832340913393!2d-99.22691372403825!3d18.850121159023352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cdd983429fc0a5%3A0xbe6c653e4c3924ce!2sBarberia%20La%20Del%20Barrio!5e0!3m2!1ses!2smx!4v1780925834786!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d236.31092946781152!2d-99.32198579748567!3d18.620199974569825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cdd30002c911a5%3A0xe619e8c679357ec0!2sMakeup%20by%20Leex!5e0!3m2!1ses!2smx!4v1781241260010!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <p>
                 ¿Tienes dudas para llegar?
                 <a href="#contacto">Escríbenos y te ayudamos.</a>
             </p>
         </article>
+        </div>
+        </div>
+        </section>
+        </section>
     </section>
 
     <section id="contacto">
-        <h2>Contáctanos</h2>
-        <article>
+        <div class="d-flex justify-content-center">
+        <div class="card text-center p-4" style="width: 80rem;">
+        <h2 class="text-center mb-4">Contáctanos</h2>
+        <article class="text-center mb-4">
             <h3>Agenda tu cita o envíanos un mensaje</h3>
             <p>Llena el formulario y uno de nuestros barberos se pondrá en contacto contigo a la brevedad.</p>
             <div>
@@ -150,35 +346,31 @@
             </div>
             <button>Enviar</button>
         </article>
+        </div>
+        </div>
     </section>
 
 </main>
 
-<aside>
-    <section>
+
+<footer class=" text-white text-center py-3">
+      <section >
         <h3>Síguenos</h3>
-        <ul>
-            <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
-            <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
-            <li><a href="https://www.tiktok.com" target="_blank">TikTok</a></li>
-        </ul>
+            <img id="Image" width="25px" src="./Imagenes/mdi--instagram.svg">
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+            <img id="Image" width="25px" src="./Imagenes/ic--baseline-facebook.svg">
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            <img id="Image" width="25px" src="./Imagenes/ic--baseline-tiktok.svg">
+            <a href="https://www.tiktok.com" target="_blank">TikTok</a>
+        
     </section>
     
     <section>
         <h3>Teléfono de contacto</h3>
-        <p><a href="tel:+525512345678">+52 55 1234 5678</a></p>
+        <p><a href="tel: +52 777 129 34 04">+52 777 129 34 04</a></p>
     </section>
-</aside>
-
-<footer>
-    <p>© 2026 La Barber — Todos los derechos reservados.</p>
-    <ul>
-        <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
-        <li><a href="#servicios">Servicios</a></li>
-        <li><a href="#ubicacion">Ubicación</a></li>
-        <li><a href="#contacto">Contacto</a></li>
-    </ul>
-    <p>Diseñado con orgullo por el equipo de La Barber.</p>
+  <p>© 2026 La Barber — Todos los derechos reservados.</p>
+  <p>Diseñado con orgullo por el equipo de La Barber.</p>
 </footer>
 
 </body>
